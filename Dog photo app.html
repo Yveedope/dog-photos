@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Photo App</title>
+    <link rel="stylesheet" href="./Dog photo app.css">
+  </head>
+  <body>
+    <main>
+    <div>
+       <h1>DogPhotoApp</h1>
+        <section>
+        <h2>Dog Photos</h2>
+        <!-- TODO: Add link to dog photos -->
+        <p>
+          See more
+          <a
+            target="_blank"
+            href="file:///C:/Users/USER/Desktop/prog%20projects/dog%20photos/dog%20photo%20gallery/dog%20photo%20gallery.html"
+            >dog photos</a
+          >
+          in our gallery.
+        </p>
+        <a
+          href="file:///C:/Users/USER/Desktop/prog%20projects/dog%20photos/dog%20photo%20gallery/dog%20photo%20gallery.html"
+          >
+          <img
+            width="30%"
+            src="https://inspirationseek.com/wp-content/uploads/2016/02/Cute-Dog-Photo.jpg"
+            alt="A cute orange dog lying on its back."
+        /></a>
+       </section>
+       <section>
+        <h2>Dogs Lists</h2>
+        <h3>Things dogs love:</h3>
+          <p>1.collecting trophies</p>
+          <p>2.eating alone</p>
+          <p>3.watching TV</p>
+        <figure>
+          <img
+            width="30%"
+            src="https://th.bing.com/th/id/R.5dc6605c2fbce9ed287528bef28bd900?rik=jEdC%2bsJaXjWMnA&riu=http%3a%2f%2finspirationseek.com%2fwp-content%2fuploads%2f2016%2f02%2fCute-Dog-Pictures-on-The-Garden.jpg&ehk=0w4QZ2u5epsgPY8HW4I%2bVhMzy4%2fUNdOgwZzrmJ8JqSM%3d&risl=&pid=ImgRaw&r=0"
+            alt="A slice of lasagna on a plate."
+          />
+          <figcaption>Dogs <em>love</em> the outdoor.</figcaption>
+        </figure>
+        <h3>Top 3 things dogs hate:</h3>
+          <p>1.Loud noises</p>
+          <p>2.Being ignored</p>
+          <p>3.Veterinary visits</p>
+        <figure>
+          <img
+            width="30%"
+            src="https://th.bing.com/th/id/OIP.XFKfJK6cSKItguEeTbrjngHaEo?pid=ImgDet&w=182&h=114&c=7"
+            alt="Five dogs looking around a field."
+          />
+          <figcaption>
+            Puppies <strong>love </strong> sleeping a lot.
+          </figcaption>
+        </figure>
+       </section>
+       <section>
+        <h2>Dog Form</h2>
+        <form action="file:///C:/Users/USER/Desktop/prog%20projects/dog%20photos/submit%20file/submit%20file.html">
+          <fieldset>
+            <legend>Is your dog an indoor or outdoor dog?</legend>
+            <label
+              ><input
+                id="indoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="indoor"
+                checked
+              />
+              Indoor</label
+            >
+            <label
+              ><input
+                id="outdoor"
+                type="radio"
+                name="indoor-outdoor"
+                value="outdoor"
+              />
+              Outdoor</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>What's your dog's personality?</legend>
+            <input
+              id="loving"
+              type="checkbox"
+              name="personality"
+              value="loving"
+              checked
+            />
+            <label for="loving">Loving</label>
+            <input id="lazy" type="checkbox" name="personality" value="lazy" />
+            <label for="lazy">Lazy</label>
+            <input
+              id="energetic"
+              type="checkbox"
+              name="personality"
+              value="energetic"
+            />
+            <label for="energetic">Energetic</label>
+          </fieldset>
+          <input class="dog-photo-url"
+            type="text"
+            name="dogphotourl"
+            placeholder="dog photo URL"
+            required
+          />
+          <button class="btn" type="submit">Submit</button>
+        </form>
+       </section>
+      </main>
+     <footer>
+      <p>
+        Copyright 2024 - @ Yvee
+      </p>
+     </footer>
+   </div>
+  </body>
+</html>
